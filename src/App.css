@@ -1,0 +1,70 @@
+/* BreakingBadForm.css */
+.breaking-bad__container {
+  background: linear-gradient(160deg, #121212 30%, #333333 100%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breaking-bad__form {
+  padding: 20px;
+  width: 500px;
+  border-radius: 8px;
+}
+
+.breaking-bad__title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+.breaking-bad__title-element {
+  background-color: #4BAD4F;
+  width: 130px;
+  line-height: 130px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.breaking-bad__title-element--first {
+  margin-bottom: 10px;
+}
+
+.breaking-bad__input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid #555;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.breaking-bad__input::placeholder {
+  color: #bbb;
+}
+
+.breaking-bad__input:focus {
+  outline: none;
+  border-color: #4BAD4F;
+}
+
+.breaking-bad__button {
+  background-color: #4BAD4F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-sizing: border-box;
+}
+
+.breaking-bad__button:hover {
+  background-color: #3A9F41;
+}
